@@ -6,7 +6,7 @@ export default defineConfig({
 		emptyOutDir: true,
 		lib: {
 			entry: [
-				'./src/component.ts',
+				'./src/index.ts',
 			],
 			formats: ['es'],
 		},

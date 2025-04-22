@@ -6,12 +6,9 @@
 	"author": "Martin Rossil (martinrossil@gmail.com)",
 	"license": "ISC",
 	"keywords": [],
-	"exports": {
-		"./component": {
-			"types": "./dist/component.d.ts",
-			"default": "./dist/component.js"
-		}
-	},
+	"main": "dist/index.js",
+	"module": "dist/index.js",
+	"types": "dist/index.d.ts",
 	"scripts": {
 		"build": "vite build",
 		"dev": "vite build --watch",
